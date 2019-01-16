@@ -37,13 +37,15 @@ public class TestFourB {
           if (hasDigit == true) {
               digit.add(name);
           }
-          boolean hasWhiteSpace = name.contains(" ");
-          if (hasWhiteSpace == true) {
-              space.add(name);
-          }
       }
+      String lineSpace = line.replace("-"," ");
+      System.out.println("Strings with numbers");
+      System.out.println("------------------------------");
       System.out.println(digit);
-      System.out.println(space);
+      System.out.println("");
+      System.out.println("Strings with empty space");
+      System.out.println("------------------------------");
+      System.out.println(lineSpace);
     }
         
 }
